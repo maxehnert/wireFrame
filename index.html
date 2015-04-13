@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://rawgit.com/tsx/shireframe/master/shireframe-r.js"></script>
+  <title>Test</title>
+</head>
+<body>
+  <browser-chrome>
+    <div class="container-fluid">
+      <!-- Navbar Toolbar-->
+      <div class="vertical-margin text-center">
+        <div class="pull-left">
+          <span>Encounter Number <box>1111111111</box></span>
+          <span>Medical Record Number <box>123456789</box></span>
+        </div>
+        <span>Title of App</span>
+        <div class="pull-right">
+
+          <button class="btn btn-success"><fa share></fa> Share</button>
+        </div>
+      </div>
+      <br />
+      <div class="vertical-margin text-center">
+        <span>Age <box>00</box></span>
+        <span>Gender <box>M/F</box></span>
+        <span>Race <box>**********</box></span>
+        <span>Pre-LOS Admin <box>**</box></span>
+        <span>Insured <box>**********</box></span>
+        <span>Location of Diagnosis <box>**********</box></span>
+        <span>Onset Sepsis <box>**</box></span>
+      </div>
+
+      <!-- End Navbar Toolbar-->
+
+      <div class="vertical-margin">
+        <row>
+          <!-- Left Column -->
+          <!-- <col-3>
+            <kitten style="width: 100%; height: 80px"></kitten>
+            <h2>Garfield</h2>
+            @garfield
+            <row>
+              <col-3><small>Purrs:</small><br /><b>14668</b></col-3>
+              <col-3><small>Listening:</small><br /><b>639</b></col-3>
+              <col-3><small>Listeners:</small><br /><b>138576</b></col-3>
+            </row>
+            <h4>Comics trends</h4>
+            #purr<br />
+            #meow<br />
+            #shhhh<br />
+            #foobar<br />
+          </col-3> -->
+          <!--End Left Column -->
+
+          <!-- Center Column-->
+          <col-10>
+            <img src="./images/lightwave.png" alt="" style="width:100%">
+          </col-10>
+          <!-- End Center Column-->
+          <!-- Right Column-->
+          <col-2>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Acuity Scores
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <ol>15</ol>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Admission Type
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <ol>14</ol>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Cormability
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <ol>15</ol>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          Organ Systems
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+
+    <!-- Panel Example-->
+      <div class="list-group panel">
+        <a href="#demo3" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Example Ignore</a>
+        <div class="collapse" id="demo3">
+          <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Subitem 1 <i class="fa fa-caret-down"></i></a>
+          <div class="collapse list-group-submenu" id="SubMenu1">
+            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
+            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+            <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
+            <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+              <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+              <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+            </div>
+            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Panel Example-->
+      <!-- Nero -->
+      <div class="list-group panel">
+        <a href="#nero" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Nero</a>
+        <div class="collapse" id="nero">
+          <li class="list-group-item" data-toggle="collapse">Amonia Level (NH3)</li>
+          <li class="list-group-item" data-toggle="collapse">ICP</li>
+        </div>
+      </div>
+
+      <div class="panel-body">
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Nero 8
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Respiratory 10
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Cardio/ Vascular 20
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            GI 8
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Reno/ electrolytes 15
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Nutrition 3
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Hemo 12
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            ID 12
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Endo 3
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+            Muscularskeletal 1
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Interventions
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body">
+        <ol>23</ol>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSix">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Unclasifiable
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+        <ol>3</ol>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSeven">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+          Add Notes
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+      <div class="panel-body">
+        <textarea name="Notes" id="" cols="65" rows="5"></textarea>
+        <button class="btn btn-success">Sumbit</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingEight">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        Previous Notes
+        </a>
+      </h4>
+    </div>
+    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+      <div class="panel-body">
+        <ol>
+          <li>note</li>
+          <li>note</li>
+          <li>note</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</col-2>
+          <!-- End Right Column-->
+        </row>
+      </div>
+    </div>
+  </browser-chrome>
+  </body>
+</body>
+</html>
