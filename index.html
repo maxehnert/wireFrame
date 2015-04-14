@@ -64,15 +64,28 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Acuity Scores
         </a>
       </h4>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-        <ol>15</ol>
-
+        <li class="list-group-item" data-toggle="collapse">APACHE II</li>
+        <li class="list-group-item" data-toggle="collapse">SAPS II</li>
+        <li class="list-group-item" data-toggle="collapse">OASIS</li>
+        <li class="list-group-item" data-toggle="collapse">MPM</li>
+        <li class="list-group-item" data-toggle="collapse">LODS</li>
+        <li class="list-group-item" data-toggle="collapse">MODS</li>
+        <li class="list-group-item" data-toggle="collapse">SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Cardiac SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Respiratory SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Hepatic SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Heme SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">GCS (Neuro SOFA)</li>
+        <li class="list-group-item" data-toggle="collapse">Eye Response</li>
+        <li class="list-group-item" data-toggle="collapse">Motor Response</li>
+        <li class="list-group-item" data-toggle="collapse">Verbal Response</li>
       </div>
     </div>
   </div>
@@ -86,7 +99,20 @@
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        <ol>14</ol>
+        <li class="list-group-item" data-toggle="collapse">Elective Admit, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Metastic Cancer, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Lymphoma, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Graft Number, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">No Graft, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Admission Transfer, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Bypass Surgery, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Not Intubated, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">No Heptic Failure, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Emergency, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">AIDS, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">No Bypass Surgery, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">ICD9 Admit Codes</li>
+        <li class="list-group-item" data-toggle="collapse">ICD9 Discharge Codes</li>
       </div>
     </div>
   </div>
@@ -94,25 +120,41 @@
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Cormability
+          Comorbidities/Comorbidity Indices
         </a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-        <ol>15</ol>
+        <li class="list-group-item" data-toggle="collapse">Stroke/CVA</li>
+        <li class="list-group-item" data-toggle="collapse">Pysch/Depression</li>
+        <li class="list-group-item" data-toggle="collapse">COPD/Asthma</li>
+        <li class="list-group-item" data-toggle="collapse">CAD</li>
+        <li class="list-group-item" data-toggle="collapse">CHF</li>
+        <li class="list-group-item" data-toggle="collapse">Cirrhosis/End Stage Liver Disease</li>
+        <li class="list-group-item" data-toggle="collapse">Chronic Kidney(CKD)</li>
+        <li class="list-group-item" data-toggle="collapse">CKD Stage</li>
+        <li class="list-group-item" data-toggle="collapse">Chronic Inflammatory/Rheumatic Disease</li>
+        <li class="list-group-item" data-toggle="collapse">HIV</li>
+        <li class="list-group-item" data-toggle="collapse">Recent CD4 Count(if HIV+)</li>
+        <li class="list-group-item" data-toggle="collapse">AIDS</li>
+        <li class="list-group-item" data-toggle="collapse">Diabetes Mellitus</li>
+        <li class="list-group-item" data-toggle="collapse">Recent HgbA1C(if Diabetic)</li>
+        <li class="list-group-item" data-toggle="collapse">Peripheral Artery Disease</li>
+        <li class="list-group-item" data-toggle="collapse">Charlson Comorbidity Index</li>
+        <li class="list-group-item" data-toggle="collapse">Elixhauser Index</li>
       </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingFour">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Organ Systems
         </a>
       </h4>
     </div>
-    <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 
     <!-- Panel Example-->
       <div class="list-group panel">
@@ -222,74 +264,74 @@
           <li class="list-group-item" data-toggle="collapse">Abdominal/Bladder Pressure</li>
           <li class="list-group-item" data-toggle="collapse">Abdominal Perfusion Pressure</li>
           <li class="list-group-item" data-toggle="collapse">NIMAP</li>
-          <li class="list-group-item" data-toggle="collapse">BUN/Creatine ration</li>
+          <li class="list-group-item" data-toggle="collapse">BUN/Creatine Ration</li>
           <li class="list-group-item" data-toggle="collapse">FeNa(Fractional excretion of Na)</li>
           <li class="list-group-item" data-toggle="collapse">BUN/Creatinine Ratio</li>
         </div>
       </div>
+      <!-- Nutrition -->
+      <div class="list-group panel">
+        <a href="#nutro" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Nutrition</a>
+        <div class="collapse" id="nutro">
+          <li class="list-group-item" data-toggle="collapse">Albumin</li>
+          <li class="list-group-item" data-toggle="collapse">Glucose</li>
+          <li class="list-group-item" data-toggle="collapse">Phosphate (PO<sub>4</sub>)</li>
+        </div>
+      </div>
+      <!-- HEME -->
+      <div class="list-group panel">
+        <a href="#heme" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">HEME</a>
+        <div class="collapse" id="heme">
+          <li class="list-group-item" data-toggle="collapse">Hemato</li>
+          <li class="list-group-item" data-toggle="collapse">Hematocrit</li>
+          <li class="list-group-item" data-toggle="collapse">Hemoglobin</li>
+          <li class="list-group-item" data-toggle="collapse">Heparin Level</li>
+          <li class="list-group-item" data-toggle="collapse">INR</li>
+          <li class="list-group-item" data-toggle="collapse">Haptoglobin</li>
+          <li class="list-group-item" data-toggle="collapse">Fibrin Degeneration/Split Products(FDP or FSP)</li>
+          <li class="list-group-item" data-toggle="collapse">D-Dimer</li>
+          <li class="list-group-item" data-toggle="collapse">BUN/Creatinie Ration</li>
+          <li class="list-group-item" data-toggle="collapse">Total Bilirubin/Direct Bilirubin Ratio</li>
+        </div>
+      </div>
+      <!-- ID -->
+      <div class="list-group panel">
+        <a href="#id" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">ID</a>
+        <div class="collapse" id="id">
+          <li class="list-group-item" data-toggle="collapse">No Blood Infection</li>
+          <li class="list-group-item" data-toggle="collapse">Not Staph, Flag</li>
+          <li class="list-group-item" data-toggle="collapse">No Entero, Flag</li>
+          <li class="list-group-item" data-toggle="collapse">Not Pseudo, Aerus</li>
+          <li class="list-group-item" data-toggle="collapse">Temp(Stat Core[bladder/rectal] vs Other[axillary/oral])</li>
+          <li class="list-group-item" data-toggle="collapse">WBC</li>
+          <li class="list-group-item" data-toggle="collapse">STD(WBC)</li>
+          <li class="list-group-item" data-toggle="collapse">Absolute Neurophil Count</li>
+          <li class="list-group-item" data-toggle="collapse">Lymphocyte Count</li>
+          <li class="list-group-item" data-toggle="collapse">Procalctonin/li>
+          <li class="list-group-item" data-toggle="collapse">Time Until First Antibiotic/li>
+        </div>
+      </div>
+      <!--ENDO -->
+      <div class="list-group panel">
+        <a href="#endo" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Endo</a>
+        <div class="collapse" id="endo">
+          <li class="list-group-item" data-toggle="collapse">Random Cortisol Level</li>
+          <li class="list-group-item" data-toggle="collapse">Glucose</li>
+          <li class="list-group-item" data-toggle="collapse">No Insulin, Flag</li>
+        </div>
+      </div>
+      <!-- Musculoskeletal -->
+      <div class="list-group panel">
+        <a href="#musc" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Musculoskeletor</a>
+        <div class="collapse" id="musc">
+          <li class="list-group-item" data-toggle="collapse">Creatine Phosphokinase(CPK)</li>
+        </div>
+      </div>
+
 
 
       <div class="panel-body">
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            Reno/ electrolytes 15
-            <span class="caret"></span>
-          </a>
 
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            Nutrition 3
-            <span class="caret"></span>
-          </a>
-
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            Hemo 12
-            <span class="caret"></span>
-          </a>
-
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            ID 12
-            <span class="caret"></span>
-          </a>
-
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            Endo 3
-            <span class="caret"></span>
-          </a>
-
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-            Muscularskeletal 1
-            <span class="caret"></span>
-          </a>
-
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            ...
-          </ul>
-        </div>
       </div>
     </div>
   </div>
@@ -303,7 +345,30 @@
     </div>
     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
       <div class="panel-body">
-        <ol>23</ol>
+        <li class="list-group-item" data-toggle="collapse">Crystalloid Fluids</li>
+        <li class="list-group-item" data-toggle="collapse">Amount of Fluids given within the First 6 Hours;First 12 Hours</li>
+        <li class="list-group-item" data-toggle="collapse">Albumin</li>
+        <li class="list-group-item" data-toggle="collapse">Vasopresseors(Mean)</li>
+        <li class="list-group-item" data-toggle="collapse">Inotropes</li>
+        <li class="list-group-item" data-toggle="collapse">Red Blood Cell Transfusion</li>
+        <li class="list-group-item" data-toggle="collapse">Platelet Transfusion</li>
+        <li class="list-group-item" data-toggle="collapse">Plasma/Cryoprecippiate Transfusion</li>
+        <li class="list-group-item" data-toggle="collapse">Steriod (Hydrocortisone)</li>
+        <li class="list-group-item" data-toggle="collapse">Sedatives, Flag</li>
+        <li class="list-group-item" data-toggle="collapse">Sedation</li>
+        <li class="list-group-item" data-toggle="collapse">Pain Medication</li>
+        <li class="list-group-item" data-toggle="collapse">Muscle Relaxant/Paralytic</li>
+        <li class="list-group-item" data-toggle="collapse">Heparin</li>
+        <li class="list-group-item" data-toggle="collapse">Method of Supplimenatl O<sub>2</sub></li>
+        <li class="list-group-item" data-toggle="collapse">FiO<sub>2</sub></li>
+        <li class="list-group-item" data-toggle="collapse">PEEP(For Positve Pressure Ventilation)</li>
+        <li class="list-group-item" data-toggle="collapse">Liver Support(MARS, ELAD, etc)</li>
+        <li class="list-group-item" data-toggle="collapse">Diuretic</li>
+        <li class="list-group-item" data-toggle="collapse">Renal Replacement Therapy/Dialysis</li>
+        <li class="list-group-item" data-toggle="collapse">Antibiotic Administration</li>
+        <li class="list-group-item" data-toggle="collapse">Insulin</li>
+        <li class="list-group-item" data-toggle="collapse">Electrolytes(K, Mg, Phosphate, Na Bicarbonate)</li>
+
       </div>
     </div>
   </div>
@@ -317,7 +382,10 @@
     </div>
     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
-        <ol>3</ol>
+        <li class="list-group-item" data-toggle="collapse">Van Walraven</li>
+        <li class="list-group-item" data-toggle="collapse">Faecium</li>
+        <li class="list-group-item" data-toggle="collapse">Weight Loss</li>
+
       </div>
     </div>
   </div>
