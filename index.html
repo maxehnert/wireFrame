@@ -14,6 +14,16 @@
           <span>Encounter Number <box>1111111111</box></span>
           <span>Medical Record Number <box>123456789</box></span>
         </div>
+
+        <div class="pull-left" style="margin-left:20px">
+          <select name="" class="form-control">
+            <option value="patient1">patient1</option>
+            <option value="patient2">patient2</option>
+            <option value="patient3">patient3</option>
+            <option value="patient4">patient4</option>
+
+          </select>
+        </div>
         <span>Title of App</span>
         <div class="pull-right">
 
@@ -55,13 +65,20 @@
 
           <!-- Center Column-->
           <col-10>
-            <img src="./images/lightwave.png" alt="" style="width:100%">
+            <div class="check-element animate-show" ng-show="checked">
+              <img src="./images/lightwave.png" alt="" style="width:100%">
+            </div>
+            <div class="check-element animate-show" ng-hide="checked">
+              <img src="./images/123.png" alt="" style="width:100%">
+            </div>
           </col-10>
+          <label for="checkbox">Switch</label>
+          <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide">
           <!-- End Center Column-->
           <!-- Right Column-->
           <col-2>
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            
+
   <!--Acuity Score-->
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
