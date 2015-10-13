@@ -31,6 +31,7 @@
         </div>
       </div>
       <br />
+
       <div class="vertical-margin text-center">
         <span>Age <box>00</box></span>
         <span>Gender <box>M/F</box></span>
@@ -40,6 +41,15 @@
         <span>Location of Diagnosis <box>**********</box></span>
         <span>Onset Sepsis <box>**</box></span>
       </div>
+
+        <div class="pull-left">
+        <span>Admit Date <box>**/**/****</box></span>
+        </div>
+        <div class="pull-right">
+        <span>Discharge Date <box>**/**/****</box></span>
+        </div>
+        <hr class="red">
+
 
       <!-- End Navbar Toolbar-->
 
@@ -141,6 +151,24 @@
     </div>
   </div>
 
+  <!--Orders-->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingEight">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Orders
+        </a>
+      </h4>
+    </div>
+    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+      <div class="panel-body">
+        <li class="list-group-item" data-toggle="collapse">DNR</li>
+        <li class="list-group-item" data-toggle="collapse">DNI</li>
+        <li class="list-group-item" data-toggle="collapse">CMO</li>
+      </div>
+    </div>
+  </div>
+
   <!--Comorbidities-->
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingThree">
@@ -169,6 +197,24 @@
         <li class="list-group-item" data-toggle="collapse">Peripheral Artery Disease</li>
         <li class="list-group-item" data-toggle="collapse">Charlson Comorbidity Index</li>
         <li class="list-group-item" data-toggle="collapse">Elixhauser Index</li>
+      </div>
+    </div>
+  </div>
+
+  <!--Discharge-->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSeven">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Discharge
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+      <div class="panel-body">
+        <li class="list-group-item" data-toggle="collapse">Destination</li>
+        <li class="list-group-item" data-toggle="collapse">Outcome</li>
+        <li class="list-group-item" data-toggle="collapse">ICD9 Codes</li>
       </div>
     </div>
   </div>
